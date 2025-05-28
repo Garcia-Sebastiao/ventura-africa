@@ -1,5 +1,35 @@
 {
-    "home": {
-        "title": "Accueil"
+  "home": {
+    "hero": {
+      "title": "Une agence de voyages spécialisée dans les destinations en Angola"
+    },
+
+    "about": {
+      "label": "itinéraires emblématiques pour des expéditions dans l’Angola sauvage",
+
+      "description": "Notre expert en destinations en Angola vous connecte aux merveilles de l’Angola et aux splendeurs inexplorées de notre désert du Namibe, vieux de 55 millions d’années, prêt pour les vrais aventuriers"
+    },
+
+    "destinations": {
+      "title": "DESTINATIONS REMARQUABLES",
+
+      "label": "Au bord de l’océan Atlantique, dans le sud-ouest de l’Afrique, l’Angola est un grand pays en développement qui borde la Zambie, la Namibie, la République démocratique du Congo et le Congo. Resté fermé pendant de nombreuses années, c’est une destination presque mythique et l’une des plus diversifiées du continent."
+    },
+
+    "founder-speech": {
+      "label": "Je suis fier de partager la beauté de l’Angola avec le reste du monde. Fonder Ventura Africa en 2024 a été un moment parfait, car il a coïncidé avec l’annonce par le gouvernement de nouveaux pays bénéficiant d’une exemption de visa et avec le recentrage sur le tourisme. Le climat est chaud toute l’année, la côte atlantique est magnifique et les gens sont généreux et chaleureux. C’est le moment idéal pour visiter l’Angola."
+    },
+
+    "explore": {
+      "title": "Laissez-vous inspirer par nos récits de voyage",
+
+      "button": "Explorer"
+    },
+
+    "experience": {
+      "title": "Vivez l'Excellence",
+
+      "label": "Nous sommes une équipe de professionnels du voyage expérimentés, dévoués à offrir la meilleure expérience possible à nos clients."
     }
+  }
 }

@@ -1,7 +1,35 @@
 {
   "home": {
     "hero": {
-      "title": ""
+      "title": "Uma empresa de viagens especializada em destinos em Angola"
+    },
+
+    "about": {
+      "label": "itinerários icônicos para expedições em Angola intocada",
+
+      "description": "Nosso especialista em destinos em Angola conecta você às maravilhas de Angola e às maravilhas inexploradas do nosso deserto do Namibe, com 55 milhões de anos, pronto para os verdadeiros"
+    },
+
+    "destinations": {
+      "title": "DESTINOS NOTÁVEIS",
+
+      "label": "Nas margens do Oceano Atlântico, no sudoeste da África, Angola é um grande país em desenvolvimento que faz fronteira com Zâmbia, Namíbia, República Democrática do Congo e Congo. Fechada por muitos anos, é um destino quase mítico e um dos mais diversos do continente."
+    },
+
+    "founder-speech": {
+      "label": "Estou orgulhoso de compartilhar a beleza de Angola com o resto do mundo. Fundar a Ventura Africa em 2024 foi um momento perfeito, pois coincidiu com o anúncio do governo de mais países na lista de isenção de visto e a mudança do foco para o turismo. O clima é quente durante todo o ano, a costa do Atlântico é linda e as pessoas são generosas e gentis. Agora é a hora de visitar Angola"
+    },
+
+    "explore": {
+      "title": "Inspire-se com nossas histórias de viagem",
+
+      "button": "Explorar"
+    },
+
+    "experience": {
+      "title": "Experimente a Excelência",
+
+      "label": "Somos uma equipe de profissionais de viagem experientes dedicados a proporcionar a melhor experiência de viagem possível para nossos clientes."
     }
   }
 }
