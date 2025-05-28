@@ -1,0 +1,35 @@
+{
+  "home": {
+    "hero": {
+      "title": "A specialist Destination Travel Company in Angola"
+    },
+
+    "about": {
+      "label": "iconic itineraries to expeditions into untouched Angola",
+
+      "description": "Our Destination expert in Angola connects you to the wonder of Angola and the undiscovered wonders our 55-million-year-old Namib Desert, ripe for the true"
+    },
+
+    "destinations": {
+      "title": "REMARKABLE DESTINATIONS",
+
+      "label": "On the shores of the Atlantic Ocean in south-western Africa, Angola is a large, developing country that borders Zambia, Namibia, the Democratic Republic of Congo, and Congo. Largely closed off for the last few years, it’s an almost mythical destination and one of the continent’s most diverse."
+    },
+
+    "founder-speech": {
+      "label": "I am proud to share the beauty of Angola with the rest of the world. Starting Ventura Africa in 2024 was perfecting timing as it come about the same time that our government announced more countries on the visa-free list and shifted Tourism as the next focus. The weather is warm all year round, the Atlantic coastline is beautiful and the people are generous and kind. Now is the time to visit Angola"
+    },
+
+    "explore": {
+      "title": "Get inspired by our travel stories",
+
+      "button": "Explore"
+    },
+
+    "experience": {
+      "title": "Experience Excellence",
+
+      "label": "We are a team of experienced travel professionals who are dedicated to providing the best possible travel experience for our clients."
+    }
+  }
+}
