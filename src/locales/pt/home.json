@@ -1,23 +1,23 @@
 {
   "home": {
     "hero": {
-      "title": "Uma empresa de viagens especializada em destinos em Angola"
+      "title": "Uma empresa especializada em viagens de destino em Angola"
     },
 
     "about": {
-      "label": "itinerários icônicos para expedições em Angola intocada",
+      "label": "de roteiros icônicos a expedições pelo interior intocado de Angola",
 
-      "description": "Nosso especialista em destinos em Angola conecta você às maravilhas de Angola e às maravilhas inexploradas do nosso deserto do Namibe, com 55 milhões de anos, pronto para os verdadeiros"
+      "description": "Nosso especialista em destinos em Angola conecta você às maravilhas do país e às belezas inexploradas do nosso Deserto do Namibe, com 55 milhões de anos — um lugar perfeito para quem busca o verdadeiro"
     },
 
     "destinations": {
-      "title": "DESTINOS NOTÁVEIS",
+      "title": "DESTINOS EXTRAORDINÁRIOS",
 
-      "label": "Nas margens do Oceano Atlântico, no sudoeste da África, Angola é um grande país em desenvolvimento que faz fronteira com Zâmbia, Namíbia, República Democrática do Congo e Congo. Fechada por muitos anos, é um destino quase mítico e um dos mais diversos do continente."
+      "label": "Às margens do Oceano Atlântico, no sudoeste da África, Angola é um país grande e em desenvolvimento que faz fronteira com a Zâmbia, Namíbia, República Democrática do Congo e Congo. Largamente fechado nos últimos anos, é um destino quase mítico e um dos mais diversos do continente."
     },
 
     "founder-speech": {
-      "label": "Estou orgulhoso de compartilhar a beleza de Angola com o resto do mundo. Fundar a Ventura Africa em 2024 foi um momento perfeito, pois coincidiu com o anúncio do governo de mais países na lista de isenção de visto e a mudança do foco para o turismo. O clima é quente durante todo o ano, a costa do Atlântico é linda e as pessoas são generosas e gentis. Agora é a hora de visitar Angola"
+      "label": "Tenho orgulho de compartilhar a beleza de Angola com o resto do mundo. Começar a Ventura Africa em 2024 foi no momento ideal, coincidindo com o anúncio do nosso governo sobre a inclusão de mais países na lista de isenção de visto e o foco no Turismo como próximo pilar. O clima é quente o ano todo, a costa atlântica é linda e o povo é generoso e acolhedor. Agora é o momento certo para visitar Angola."
     },
 
     "explore": {
@@ -27,9 +27,44 @@
     },
 
     "experience": {
-      "title": "Experimente a Excelência",
+      "title": "Viva a Excelência",
 
-      "label": "Somos uma equipe de profissionais de viagem experientes dedicados a proporcionar a melhor experiência de viagem possível para nossos clientes."
+      "label": "Somos uma equipe de profissionais experientes dedicados a proporcionar a melhor experiência de viagem possível aos nossos clientes.",
+
+      "items": {
+        "adventure": {
+          "title": "Guiados pela aventura",
+          "label": "Nenhum mapa é deixado de lado na criação da aventura perfeita"
+        },
+        "creative": {
+          "title": "Experiências Criativas",
+          "label": "Angola selvagem, intocada e absolutamente única"
+        },
+        "curators": {
+          "title": "Curadores Especialistas",
+          "label": "Nosso conhecimento da indústria nos torna os melhores no que fazemos em campo"
+        },
+        "destination": {
+          "title": "Gestão de Destinos",
+          "label": "Planejamos com você em mente, do início até o seu próximo retorno"
+        }
+      }
+    },
+
+    "footer": {
+      "links": {
+        "title": "Links Rápidos",
+        "about": "Sobre nós",
+        "our-services": "Nossos Serviços",
+        "places": "Lugares"
+      },
+
+      "contact-us": {
+        "title": "Fale Conosco",
+        "label": "Estamos aqui para ajudar você com seus planos de viagem. Por favor, entre em contato para mais informações."
+      },
+
+      "copy": "Ventura Africa. Todos os direitos reservados"
     }
   }
 }

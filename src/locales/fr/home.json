@@ -1,23 +1,23 @@
 {
   "home": {
     "hero": {
-      "title": "Une agence de voyages spécialisée dans les destinations en Angola"
+      "title": "Une agence spécialisée dans les voyages sur mesure en Angola"
     },
 
     "about": {
-      "label": "itinéraires emblématiques pour des expéditions dans l’Angola sauvage",
+      "label": "des itinéraires emblématiques aux expéditions dans l'Angola sauvage",
 
-      "description": "Notre expert en destinations en Angola vous connecte aux merveilles de l’Angola et aux splendeurs inexplorées de notre désert du Namibe, vieux de 55 millions d’années, prêt pour les vrais aventuriers"
+      "description": "Notre expert en destinations en Angola vous connecte aux merveilles du pays et aux trésors encore inexplorés de notre désert du Namib, vieux de 55 millions d’années, idéal pour une véritable immersion"
     },
 
     "destinations": {
       "title": "DESTINATIONS REMARQUABLES",
 
-      "label": "Au bord de l’océan Atlantique, dans le sud-ouest de l’Afrique, l’Angola est un grand pays en développement qui borde la Zambie, la Namibie, la République démocratique du Congo et le Congo. Resté fermé pendant de nombreuses années, c’est une destination presque mythique et l’une des plus diversifiées du continent."
+      "label": "Située sur les rives de l'océan Atlantique, dans le sud-ouest de l'Afrique, l’Angola est un grand pays en développement, bordé par la Zambie, la Namibie, la République Démocratique du Congo et le Congo. Resté largement fermé ces dernières années, c’est une destination presque mythique et l’un des pays les plus diversifiés du continent."
     },
 
     "founder-speech": {
-      "label": "Je suis fier de partager la beauté de l’Angola avec le reste du monde. Fonder Ventura Africa en 2024 a été un moment parfait, car il a coïncidé avec l’annonce par le gouvernement de nouveaux pays bénéficiant d’une exemption de visa et avec le recentrage sur le tourisme. Le climat est chaud toute l’année, la côte atlantique est magnifique et les gens sont généreux et chaleureux. C’est le moment idéal pour visiter l’Angola."
+      "label": "Je suis fier de partager la beauté de l'Angola avec le reste du monde. Lancer Ventura Africa en 2024 fut un moment idéal, coïncidant avec l’annonce par notre gouvernement de la suppression de visa pour plusieurs pays et du tourisme comme nouvelle priorité. Le climat est chaud toute l’année, la côte atlantique est magnifique et les habitants sont généreux et accueillants. C’est le moment parfait pour visiter l’Angola."
     },
 
     "explore": {
@@ -27,9 +27,44 @@
     },
 
     "experience": {
-      "title": "Vivez l'Excellence",
+      "title": "Vivez l’Excellence",
 
-      "label": "Nous sommes une équipe de professionnels du voyage expérimentés, dévoués à offrir la meilleure expérience possible à nos clients."
+      "label": "Nous sommes une équipe de professionnels du voyage expérimentés, dédiés à offrir la meilleure expérience possible à nos clients.",
+
+      "items": {
+        "adventure": {
+          "title": "Guidé par l’aventure",
+          "label": "Aucune carte n’est ignorée pour concevoir l’aventure ultime"
+        },
+        "creative": {
+          "title": "Expériences Créatives",
+          "label": "L’Angola sauvage, intacte et absolument unique"
+        },
+        "curators": {
+          "title": "Experts Curateurs",
+          "label": "Notre connaissance du terrain fait de nous les meilleurs dans ce que nous faisons"
+        },
+        "destination": {
+          "title": "Gestion de Destination",
+          "label": "Nous planifions avec vous à l’esprit, du début jusqu’à votre retour"
+        }
+      }
+    },
+
+    "footer": {
+      "links": {
+        "title": "Liens Rapides",
+        "about": "À propos de nous",
+        "our-services": "Nos Services",
+        "places": "Lieux"
+      },
+
+      "contact-us": {
+        "title": "Contactez-nous",
+        "label": "Nous sommes là pour vous aider à organiser vos voyages. N'hésitez pas à nous contacter pour plus d'informations."
+      },
+
+      "copy": "Ventura Africa. Tous droits réservés"
     }
   }
 }

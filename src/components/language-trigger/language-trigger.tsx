@@ -1,7 +1,8 @@
 "use client";
 
-import { useRouter, usePathname } from "@/i18n/routing";
+import { usePathname } from "@/i18n/routing";
 import { ChevronDown } from "lucide-react";
+import { useLocale } from "next-intl";
 import { useState, useRef, useEffect } from "react";
 
 const languages = {
@@ -11,16 +12,10 @@ const languages = {
 };
 
 export function LanguageTrigger() {
-  const router = useRouter();
   const pathname = usePathname();
+  const locale = useLocale();
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
-
-  const supportedLocales = Object.keys(languages);
-  const currentLocale =
-    (supportedLocales.find((locale) =>
-      pathname.startsWith(`/${locale}`)
-    ) as keyof typeof languages) || "en";
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
@@ -38,8 +33,8 @@ export function LanguageTrigger() {
 
   const handleLanguageChange = (locale: string) => {
     const pathWithoutLocale = pathname.replace(/^\/(en|pt|fr)/, "") || "/";
-    router.replace(pathWithoutLocale, { locale });
-    setIsOpen(false);
+    const newUrl = `/${locale}${pathWithoutLocale}`;
+    window.location.href = newUrl;
   };
 
   return (
@@ -49,7 +44,7 @@ export function LanguageTrigger() {
         className="flex items-center gap-x-2 text-white hover:opacity-80 transition-opacity"
       >
         <span className="font-bold text-white maven-font uppercase">
-          {currentLocale.toUpperCase()}
+          {locale.toUpperCase()}
         </span>
         <ChevronDown
           className={`w-5 h-5 transition-transform ${
@@ -60,12 +55,12 @@ export function LanguageTrigger() {
 
       {isOpen && (
         <div className="absolute top-full right-0 mt-2 bg-white rounded-lg shadow-lg py-2 min-w-[220px] z-50">
-          {Object.entries(languages).map(([locale, label]) => (
+          {Object.entries(languages).map(([lang, label]) => (
             <button
-              key={locale}
-              onClick={() => handleLanguageChange(locale)}
+              key={lang}
+              onClick={() => handleLanguageChange(lang)}
               className={`w-full px-4 py-3 text-xl text-left maven-font hover:bg-gray-200 transition-colors ${
-                currentLocale === locale ? "bg-gray-50" : ""
+                lang === locale ? "bg-gray-50" : ""
               }`}
             >
               {label}
