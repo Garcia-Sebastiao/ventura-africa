@@ -29,7 +29,42 @@
     "experience": {
       "title": "Experience Excellence",
 
-      "label": "We are a team of experienced travel professionals who are dedicated to providing the best possible travel experience for our clients."
+      "label": "We are a team of experienced travel professionals who are dedicated to providing the best possible travel experience for our clients.",
+
+      "items": {
+        "adventure": {
+          "title": "Adventure driven",
+          "label": "No map is left unturned in curating the ultimate adventure"
+        },
+        "creative": {
+          "title": "Creative Experiences",
+          "label": "Wild, untouched and utterly unique Angola"
+        },
+        "curators": {
+          "title": "Expert Curators ",
+          "label": "Our industry knowledge makes us the best at what we do on the ground"
+        },
+        "destination": {
+          "title": "Destination Management",
+          "label": "We plan with you in mind, from beginning to your next return "
+        }
+      }
+    },
+
+    "footer": {
+      "links": {
+        "title": "Quick Links",
+        "about": "About us",
+        "our-services": "Our Services",
+        "places": "Places"
+      },
+
+      "contact-us": {
+        "title": "Contact us",
+        "label": "We are here to help you with your travel plans. Please contact us for more information."
+      },
+
+      "copy": "Ventura Africa. All rights reserved"
     }
   }
 }

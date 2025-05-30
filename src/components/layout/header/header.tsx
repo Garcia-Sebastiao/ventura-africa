@@ -1,6 +1,7 @@
 import { Logo } from "@/assets/logo";
 import { ChevronDown, MenuIcon, SearchIcon } from "lucide-react";
 import Link from "next/link";
+import { LanguageTrigger } from "@/components/language-trigger/language-trigger";
 
 export function Header() {
   return (
@@ -16,10 +17,7 @@ export function Header() {
       </Link>
 
       <div className="flex items-center gap-x-4">
-        <button className="flex items-center gap-x-2">
-          <span className="text-white font-bold">EN</span>
-          <ChevronDown className="w-5 h-5 text-white" />
-        </button>
+        <LanguageTrigger />
       </div>
     </header>
   );

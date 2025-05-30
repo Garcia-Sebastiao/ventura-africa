@@ -1,29 +1,58 @@
+"use client";
 import { about } from "@/assets/common";
-import { Container } from "@/components/layout/container/container";
 import { useHomeDictionary } from "@/locales/hooks/use-home-dictionary";
 import Image from "next/image";
+import { motion } from "motion/react";
 
 export function HomeGalleries() {
   const { translate } = useHomeDictionary();
   return (
-    <div className="w-full flex flex-col gap-y-12 items-center bg-[#990000] py-20">
+    <div
+      className="w-full flex flex-col gap-y-12 items-center bg-[#990000] py-20"
+      id="places"
+    >
       <div className="flex w-full items-center gap-x-32">
-        <div className="flex-1 h-[1px] bg-white" />
+        <motion.div
+          initial={{ opacity: 0, x: -600 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1 }}
+          className="flex-1 h-[1px] bg-white"
+        />
 
-        <h2 className="text-center text-[4rem] max-w-md leading-none text-white font-medium">
+        <motion.h2
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+          className="text-center text-[4rem] max-w-md leading-none text-white font-medium"
+        >
           {translate("home.destinations.title")}
-        </h2>
+        </motion.h2>
 
-        <div className="flex-1 h-[1px] bg-white" />
+        <motion.div
+          initial={{ opacity: 0, x: 600 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1 }}
+          className="flex-1 h-[1px] bg-white"
+        />
       </div>
 
-      <p className="text-2xl text-center max-w-3xl font-medium text-white">
+      <motion.p
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+        className="text-3xl text-center max-w-3xl font-medium text-white"
+      >
         {translate("home.destinations.label")}
-      </p>
+      </motion.p>
 
       <div className="w-full px-4 lg:px-16 mt-10 flex flex-col gap-y-8">
         <div className="w-full grid grid-cols-2 gap-8">
-          <div className="h-[44rem] flex items-center justify-center w-full relative">
+          <motion.div
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1 }}
+            className="h-[44rem] flex items-center justify-center w-full relative"
+          >
             <Image
               src={about}
               alt="About us"
@@ -34,9 +63,14 @@ export function HomeGalleries() {
             <span className="text-[3.5rem] uppercase relative z-10 text-white">
               BENGUELA
             </span>
-          </div>
+          </motion.div>
 
-          <div className="h-[44rem] flex items-center justify-center w-full relative">
+          <motion.div
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1 }}
+            className="h-[44rem] flex items-center justify-center w-full relative"
+          >
             <Image
               src={about}
               alt="About us"
@@ -47,10 +81,15 @@ export function HomeGalleries() {
             <span className="text-[3.5rem] uppercase relative z-10 text-white">
               LUANDA
             </span>
-          </div>
+          </motion.div>
         </div>
 
-        <div className="w-full grid grid-cols-1 gap-8">
+        <motion.div
+          initial={{ opacity: 0, y: 100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          className="w-full grid grid-cols-1 gap-8"
+        >
           <div className="h-[50rem] flex items-center justify-center w-full relative">
             <Image
               src={about}
@@ -63,10 +102,15 @@ export function HomeGalleries() {
               NAMIBE
             </span>
           </div>
-        </div>
+        </motion.div>
 
         <div className="w-full grid grid-cols-2 gap-8">
-          <div className="h-[44rem] flex items-center justify-center w-full relative">
+          <motion.div
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1 }}
+            className="h-[44rem] flex items-center justify-center w-full relative"
+          >
             <Image
               src={about}
               alt="About us"
@@ -77,9 +121,14 @@ export function HomeGalleries() {
             <span className="text-[3.5rem] uppercase relative z-10 text-white">
               BENGUELA
             </span>
-          </div>
+          </motion.div>
 
-          <div className="h-[44rem] flex items-center justify-center w-full relative">
+          <motion.div
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1 }}
+            className="h-[44rem] flex items-center justify-center w-full relative"
+          >
             <Image
               src={about}
               alt="About us"
@@ -90,10 +139,15 @@ export function HomeGalleries() {
             <span className="text-[3.5rem] uppercase relative z-10 text-white">
               LUANDA
             </span>
-          </div>
+          </motion.div>
         </div>
 
-        <div className="w-full grid grid-cols-1 gap-8">
+        <motion.div
+          initial={{ opacity: 0, y: 100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          className="w-full grid grid-cols-1 gap-8"
+        >
           <div className="h-[50rem] flex items-center justify-center w-full relative">
             <Image
               src={about}
@@ -106,10 +160,14 @@ export function HomeGalleries() {
               NAMIBE
             </span>
           </div>
-        </div>
+        </motion.div>
       </div>
 
-      <div className="w-full max-w-6xl mt-[4rem] flex items-center px-16 flex-col">
+      <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+       className="w-full max-w-6xl mt-[4rem] flex items-center px-16 flex-col">
         <div className="w-full  max-w-4xl flex flex-col items-start mx-auto">
           <span className="text-[6rem] text-white font-bold italic self-start">
             “
@@ -126,7 +184,7 @@ export function HomeGalleries() {
             Irene Boaventura | Travel Designer - Founder
           </span>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }

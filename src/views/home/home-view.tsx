@@ -1,3 +1,4 @@
+import { Footer } from "@/components/layout/footer/footer";
 import { HomeAbout } from "./components/home-about/home-about";
 import { HomeExperience } from "./components/home-experience/home-experience";
 import { HomeExplore } from "./components/home-explore/home-explore";
@@ -11,7 +12,10 @@ export function HomeView() {
       <HomeAbout />
       <HomeGalleries />
       <HomeExplore />
-      <HomeExperience />
+      <div className="w-full">
+        <HomeExperience />
+        <Footer />
+      </div>
     </div>
   );
 }

@@ -1,8 +1,11 @@
+"use client";
+
 import { banner } from "@/assets/common";
 import { Container } from "@/components/layout/container/container";
 import { Header } from "@/components/layout/header/header";
 import { useHomeDictionary } from "@/locales/hooks/use-home-dictionary";
 import Image from "next/image";
+import { motion } from "motion/react";
 
 export function HomeHero() {
   const { translate } = useHomeDictionary();
@@ -17,9 +20,14 @@ export function HomeHero() {
       <Container className="relative flex flex-col z-10 h-full">
         <Header />
         <div className="w-full flex items-center justify-center pt-[14rem]">
-        <h1 className="text-4xl lg:text-[5rem] text-center font-cormorant leading-relaxed  text-white uppercase">
+          <motion.h1
+            initial={{ opacity: 0, y: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+            className="text-4xl lg:text-[5rem] text-center font-cormorant leading-relaxed  text-white uppercase"
+          >
             {translate("home.hero.title")}
-          </h1>
+          </motion.h1>
         </div>
       </Container>
     </div>

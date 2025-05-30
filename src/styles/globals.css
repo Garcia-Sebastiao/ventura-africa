@@ -7,6 +7,12 @@
   font-size: 0.875rem !important;
 }
 
+html {
+  scroll-behavior: smooth;
+  font-size: 0.875rem !important;
+  scroll-padding-top: 100px;
+}
+
 .maven-font {
   font-family: "Maven Pro", sans-serif;
 }
